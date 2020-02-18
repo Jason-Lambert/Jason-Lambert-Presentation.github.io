@@ -1,43 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
 # Setup
-title: Jason Lambert
-tagline: Développeur Web
-url: https://jason-lambert.github.io/
-paginate: 1
-baseurl: ""
-permalink: pretty
+title:            Jason Lambert
+tagline:          'Développeur Web'
+description:      'Développeur Web'
+url:              jason-lambert.github.io
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
-sass:
-  sass_dir: _sass
-  style: :compressed
-
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
 author:
-  name: Jason Lambert
-  url: https://jason-lambert.github.io/
-  email: jason.clement.lambert@gmail.com
+  name:           'Jason Lambert'
+  url:            https://jason-lambert.github.io
+
+paginate:         1
 
 # Custom vars
-version: 3.0.0
+version:          1.0.0
+
 github:
-  repo:
+  repo:           https://github.com/Jason-Lambert/Jason-Lambert.github.io
+
+# This is the list of pages to incldue in the header of the website.
+pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
