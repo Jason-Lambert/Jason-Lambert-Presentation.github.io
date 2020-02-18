@@ -1,7 +1,7 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+title: Présentation - Jason Lambert
+tagline: Développeur Web
+url: https://jason-lambert.github.io/
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -33,11 +33,11 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Jason Lambert
+  url: https://jason-lambert.github.io/
+  email: jason.clement.lambert@gmail.com
 
 # Custom vars
 version: 3.0.0
 github:
-  repo: https://github.com/poole/poole
+  repo:
