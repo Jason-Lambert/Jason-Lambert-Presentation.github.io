@@ -1686,6 +1686,24 @@ a, button, input {
     transition: none;
 }
 
+.site-header .header-image {
+    width: 100px;
+}
+.site-header .header-image {
+    vertical-align: middle;
+}
+a img {
+    border: 0;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 
 
 
