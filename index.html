@@ -45,6 +45,16 @@
             flex-direction: row;
             justify-content: center;
         }
+        
+        
+        .dropdown-hover .main-navigation:not(.toggled) ul li:hover > ul, .dropdown-hover .main-navigation:not(.toggled) ul li.sfHover > ul {
+    left: auto;
+    opacity: 1;
+    transition-delay: 150ms;
+    pointer-events: auto;
+    height: auto;
+    overflow: visible;
+}
     
     </style>
 </head>
@@ -121,6 +131,12 @@
         </div>
         <!-- .inside-navigation -->
     </nav>
+    
+    
+    
+    <div class="photo">
+        <img src="photo.png" alt="">
+    </div>
 
 
 <script src="menu.js"></script>
