@@ -170,10 +170,10 @@ html.slb_overlay {
     border: 1px solid black;
     padding: .5rem 1rem;
 	color:#FFF;
-    font-size:.9rem;
+    font-size:.9rem !important;
 	text-decoration:none;
     text-shadow:-1px -1px 0 #2C7982;
-    width: 23rem;
+    width: 22rem !important;
     font-size: 1.1rem;
     cursor: pointer;
     right: 60px;
