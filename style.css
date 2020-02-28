@@ -173,8 +173,11 @@ html.slb_overlay {
     font-size:.9rem;
 	text-decoration:none;
     text-shadow:-1px -1px 0 #2C7982;
-    width: 21.38rem;
-    right: 52px;
+    width: 23rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    right: 60px;
+    top: -10px;
 	background: #3EACBA;
 	border:1px solid #379AA4;
 	background-image:-webkit-linear-gradient(top, #48C6D4, #3EACBA);
@@ -454,8 +457,9 @@ img.menu-image:hover {
 .main-navigation .main-nav ul li:hover > a,
 .main-navigation .main-nav ul li:focus > a,
 .main-navigation .main-nav ul li.sfHover > a {
-    color: red;
-    background-color: #fff;
+    color: white;
+    background-color: #415cb2;
+    cursor: pointer;
 }
 
 button.menu-toggle:hover,
@@ -466,21 +470,14 @@ button.menu-toggle:focus,
     color: #3a3a3a;
 }
 
-.main-navigation .main-nav ul li[class*="current-menu-"] > a {
-    text-decoration: underline;
-    text-decoration-color: red;
-    background-color: #fff;
+.main-navigation .main-nav ul li[class*="current-menu-"] > a,
+.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover {
+    background-color: #415cb2;
+    color:white;
 }
 
-.main-navigation .main-nav ul ul li[class*="current-menu-"] > a {
-    color: #3a3a3a;
-}
 
-.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,
-.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a {
-    color: #3a3a3a;
-    background-color: #fff;
-}
+
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a:focus,
 .main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a:focus,
@@ -516,8 +513,8 @@ button.menu-toggle:focus,
 .main-navigation .main-nav ul ul li:hover > a,
 .main-navigation .main-nav ul ul li:focus > a,
 .main-navigation .main-nav ul ul li.sfHover > a {
-    color: red;
-    background-color: #fff;
+    color: white;
+    background-color: #415cb2;
 }
 
 .sfHover {

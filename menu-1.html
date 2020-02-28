@@ -26,15 +26,14 @@
         .inside-header{
             text-align: center;
         }
-        
-        
-        nav{
+         nav{
             background-color: #fff;
         }
         
         .sub-menu{
             width: inherit !important;
         }
+        
         .dropdown-menu-toggle::before {
     content: "\f107";
     font-family: "Font Awesome 5 Free";
@@ -67,79 +66,14 @@
     overflow: visible;
 }
         
-        .menu-item-478{
-            display: inline-block !important;
-        }
-        
         li > a {
             text-transform: uppercase !important;
         }
         
-        
-        .special_link{
+        .custom_header_div > a {
+            text-transform: uppercase !important;
+        }
     
-}
-
-.special_link > a.header-link{
-    
-    border: 1px solid black;
-	color:#FFF !important;
-    font-size:.9rem;
-	text-decoration:none;
-    text-shadow:-1px -1px 0 #2C7982;
-    margin-left: 2px;
-	background: #3EACBA;
-	border:1px solid #379AA4;
-	background-image:-webkit-linear-gradient(top, #48C6D4, #3EACBA);
-	background-image:-moz-linear-gradient(top, #48C6D4, #3EACBA);
-	background-image:-ms-linear-gradient(top, #48C6D4, #3EACBA);
-	background-image:-o-linear-gradient(top, #48C6D4, #3EACBA);
-	background-image:linear-gradient(top, #48C6D4, #3EACBA);
-	
-	
-	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 0px 0 #338A94, 0 0px 0px rgba(0, 0, 0, .5);
-	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 0px 0 #338A94, 0 0px 0px rgba(0, 0, 0, .5);
-	box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 0px 0 #338A94, 0 0px 0px rgba(0, 0, 0, .5);
-}
-
-.special_link > a.header-link:visited{
-    color:#FFF;
-}
-
-.special_link > a.header-link:active{
-	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset; 
-	top:2px;
-}
-
-.special_link > a.header-link:before{
-   color:#FFF;
-   content: "\f0a9";
-   display: inline-block;
-   font-family: "Font Awesome 5 Free";
-   font-size: 1rem;
-   font-weight: 900;
-   padding-right: 1rem;
-   position: relative;
-   top: 1px;
-}
-
-.special_link > a.header-link:hover {
-	background: #48C6D4;
-	background-image:-webkit-linear-gradient(top, #3EACBA, #48C6D4);
-	background-image:-moz-linear-gradient(top, #3EACBA, #48C6D4);
-	background-image:-ms-linear-gradient(top, #3EACBA, #48C6D4);
-	background-image:-o-linear-gradient(top, #3EACBA, #48C6D4);
-	background-image:linear-gradient(top, #3EACBA, #48C6D4);
-}
-
-.special_link > a.header-link:hover:before {
-	transform: translateX(.5rem) scale(1.1);
-}
-
-    .main-navigation ul li:hover {
-    background-color: white;
-    color: #3a3a3a;
-}
     </style>
 </head>
 
@@ -166,7 +100,8 @@
             </div>
             <!-- .site-branding-container -->
             <div class="custom_header_div">
-               
+                <a ="http://localhost/zentonic/actualites/" aria-current="page" class="header-link">Que se passe-t-il ce mois-ci : 
+        février 2020        </a>
                 <a ="https://www.facebook.com/ZenTonic-2001215216794504/" class="header-facebook-logo">
             <i class="fab fa-facebook-square"></i>
         </a>
@@ -182,33 +117,34 @@
 					<span class="mobile-menu">Menu</span>				</button>
             <div id="primary-menu" class="main-nav">
                 <ul id="menu-menu-zentonic" class=" menu sf-menu" aria-hidden="true">
-                    <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-18 current_page_item menu-item-21"><a aria-current="page" data-ps2id-api="true">Accueil</a></li>
+                    <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-18 current_page_item menu-item-21"><a ="http://localhost/zentonic/" aria-current="page" data-ps2id-api="true">Accueil</a></li>
                     <li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-716"><a ="http://localhost/zentonic/decouvrez-zentonic/" data-ps2id-api="true">Découvrez Zentonic<span role="presentation" class="dropdown-menu-toggle"></span></a>
                         <ul class="sub-menu">
-                            <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a  data-ps2id-api="true">Découverte des activités</a></li>
-                            <li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a  data-ps2id-api="true">Vous voulez découvrir une séance?</a></li>
-                            <li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a  data-ps2id-api="true">Nous contacter</a></li>
+                            <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a ="http://localhost/zentonic/decouvrez-zentonic/decouverte-des-activites/" data-ps2id-api="true">Découverte des activités</a></li>
+                            <li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a ="http://localhost/zentonic/decouvrez-zentonic/decouvrir-une-seance/" data-ps2id-api="true">Vous voulez découvrir une séance?</a></li>
+                            
+                            <li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a ="http://localhost/zentonic/contact/" data-ps2id-api="true">Nous contacter</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><a  data-ps2id-api="true">Marche Nordique Santé<span role="presentation" class="dropdown-menu-toggle"></span></a>
+                    <li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><a ="http://localhost/zentonic/marche-nordique-sante/" data-ps2id-api="true">Marche Nordique Santé<span role="presentation" class="dropdown-menu-toggle"></span></a>
                         <ul class="sub-menu">
-                            <li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a  data-ps2id-api="true">En séances hebdomadaires</a></li>
-                            <li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a  data-ps2id-api="true">En sorties mensuelles</a></li>
-                            <li id="menu-item-692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a data-ps2id-api="true">Marche Nordique Sortie Vacances</a></li>
+                            <li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a ="http://localhost/zentonic/marche-nordique-sante/en-seances-hebdomadaires/" data-ps2id-api="true">En séances hebdomadaires</a></li>
+                            <li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a ="http://localhost/zentonic/marche-nordique-sante/en-sorties-mensuelles/" data-ps2id-api="true">En sorties mensuelles</a></li>
+                            <li id="menu-item-692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a ="http://localhost/zentonic/marche-nordique-sante/marche-nordique-sortie-vacances/" data-ps2id-api="true">Marche Nordique Sortie Vacances</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a data-ps2id-api="true">Gym corps et mental</a></li>
-                    <li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424"><a data-ps2id-api="true">Séances à thématiques santé<span role="presentation" class="dropdown-menu-toggle"></span></a>
+                    <li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a ="http://localhost/zentonic/gym-corps-et-mental/" data-ps2id-api="true">Gym corps et mental</a></li>
+                    <li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-424"><a ="http://localhost/zentonic/seances-a-thematiques-sante/" data-ps2id-api="true">Séances à thématiques santé<span role="presentation" class="dropdown-menu-toggle"></span></a>
                         <ul class="sub-menu">
-                            <li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a  data-ps2id-api="true">Diabète et/ou Surpoids</a></li>
-                            <li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a  data-ps2id-api="true">Douleurs chroniques / Fibromyalgie</a></li>
+                            <li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a ="http://localhost/zentonic/seances-a-thematiques-sante/diabete-et-ou-surpoids/" data-ps2id-api="true">Diabète et/ou Surpoids</a></li>
+                            <li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a ="http://localhost/zentonic/seances-a-thematiques-sante/douleurs-chroniques-fibromyalgie/" data-ps2id-api="true">Douleurs chroniques / Fibromyalgie</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a  data-ps2id-api="true">Sophrologie</a></li>
+                    <li id="menu-item-469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a ="http://localhost/zentonic/calendrier-des-seances/" data-ps2id-api="true">Sophrologie</a></li>
                     <li id="menu-item-469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a ="http://localhost/zentonic/calendrier-des-seances/" data-ps2id-api="true">Sport sur Mesure</a></li>
                     <li id="menu-item-469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a ="http://localhost/zentonic/calendrier-des-seances/" data-ps2id-api="true">CALENDRIER des Séances</a></li>
                     <li id="menu-item-472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-472"><a ="http://localhost/zentonic/tarifs-et-inscription/" data-ps2id-api="true">Tarifs et Inscription</a></li>
-                    <li id="menu-item-478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-478 special_link"><a ="http://localhost/zentonic/actualites/" class="header-link" data-ps2id-api="true">Que se passe-t-il ce mois-ci : février 2020</a></li>
+                    <li id="menu-item-478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-478"><a ="http://localhost/zentonic/actualites/" data-ps2id-api="true">Que se passe-t-il ce mois-ci : février 2020</a></li>
                 </ul>
             </div>
         </div>
