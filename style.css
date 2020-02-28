@@ -458,7 +458,7 @@ img.menu-image:hover {
 .main-navigation .main-nav ul li:focus > a,
 .main-navigation .main-nav ul li.sfHover > a {
     color: white;
-    background-color: #415cb2;
+    background-color: #1B76C1;
     cursor: pointer;
 }
 
@@ -472,7 +472,7 @@ button.menu-toggle:focus,
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a,
 .main-navigation .main-nav ul li[class*="current-menu-"] > a:hover {
-    background-color: #415cb2;
+    background-color: #1B76C1;
     color:white;
 }
 
@@ -514,7 +514,7 @@ button.menu-toggle:focus,
 .main-navigation .main-nav ul ul li:focus > a,
 .main-navigation .main-nav ul ul li.sfHover > a {
     color: white;
-    background-color: #415cb2;
+    background-color: #1B76C1;
 }
 
 .sfHover {
